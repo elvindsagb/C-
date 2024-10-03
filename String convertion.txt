@@ -1,0 +1,50 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MyFirstProject
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //int x=10;
+            //int y=20;
+            //int z=30;
+
+            int x = 10, 
+                y = 20, 
+                z = 30;
+            string textAge = "-23";
+
+            int age = Convert.ToInt32(textAge);
+            Console.WriteLine(age);
+
+            string textbigN= "-900000000";
+            
+            Console.WriteLine(long.MaxValue);
+            Console.WriteLine(long.MinValue);
+            long bigN =Convert.ToInt64(textbigN);
+            Console.WriteLine(bigN);
+
+            string dnn = "-55.2";
+            double negative = Convert.ToDouble(dnn);
+            Console.WriteLine(negative);
+            Console.WriteLine(double.MaxValue);
+            Console.WriteLine(double.MinValue);
+
+            string testp = "5.00000001";
+            float precison = Convert.ToSingle(testp);
+            Console.WriteLine(precison);
+
+            string testm = "14.99";
+            decimal money =Convert.ToDecimal(testm) ;
+            Console.WriteLine(money);
+            Console.WriteLine(decimal.MaxValue);
+            Console.WriteLine(decimal.MinValue);
+            Console.ReadLine();
+        }
+    }
+}

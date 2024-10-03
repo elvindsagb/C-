@@ -1,0 +1,44 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MyFirstProject
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //int x=10;
+            //int y=20;
+            //int z=30;
+
+            int x = 10, 
+                y = 20, 
+                z = 30;
+
+            int age;
+            age= 23;
+            Console.WriteLine(age);
+            Console.WriteLine(long.MaxValue);
+            Console.WriteLine(long.MinValue);
+            long bigN = 900000000L;
+            Console.WriteLine(bigN);
+
+            double negative = -55.20;
+            Console.WriteLine(negative);
+            Console.WriteLine(double.MaxValue);
+            Console.WriteLine(double.MinValue);
+            float precison = 5.00000001F;
+            Console.WriteLine(precison);
+
+
+            decimal money = 14.99M;
+            Console.WriteLine(money);
+            Console.WriteLine(decimal.MaxValue);
+            Console.WriteLine(decimal.MinValue);
+            Console.ReadLine();
+        }
+    }
+}
